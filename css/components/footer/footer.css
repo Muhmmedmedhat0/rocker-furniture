@@ -1,0 +1,154 @@
+/* start footer */
+footer {
+    background-color: black;
+}
+
+.footer__items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px 0 60px;
+}
+
+.footer__item {
+    flex: 1;
+    padding: 10px 20px;
+}
+
+.footer__item.logo {
+    flex: 1.5;
+}
+
+.footer__item.logo img {
+    max-width: 100%;
+}
+
+.footer__item.logo p {
+    color: #888888;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+    margin-bottom: 38px;
+    margin-top: 38px;
+}
+
+.footer__app--links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer__app--links img {
+    margin: 5px 0;
+    padding: 5px;
+    cursor: pointer;
+}
+.footer__item.information h5,
+.footer__item--myaccount h5,
+.footer__item.subscribe h5 {
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    font: 500 16px/24px 'Roboto', sans-serif;
+}
+
+.footer__item ul li {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.footer__item a {
+    color: #888888;
+}
+
+.footer__item.subscribe {
+    position: relative;
+}
+
+.input-news input {
+    color: #ffffff;
+    background-color: black;
+    border: 0;
+    border-bottom: 1px solid;
+    margin: 25px 0;
+    padding: 10px 0;
+    max-width: 100%;
+}
+
+.input-news input:focus {
+    outline: none;
+}
+
+.subscribe-btn {
+    position: absolute;
+    height: 25px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    background-image: url(../../../images/newsletter.png);
+    color: #fff;
+    cursor: pointer;
+    left: 236px;
+    right: 0;
+    top: 85px;
+    padding: 10px;
+    transition: 0.5s;
+    background-position: center 0px;
+}
+
+.subscribe-btn:hover {
+    background-position: center -60px;
+}
+
+.social__icon ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__icon li {
+    /* flex: 1; */
+    display: inline-block;
+    color: #888888;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: transform 0.2s;
+    font-weight: bold;
+}
+
+.social__icon li:hover i {
+    opacity: 1;
+    color: #fff;
+}
+hr {
+    color: var(--subColor);
+}
+.copyrights {
+    color: var(--subColor);
+    margin-top: 10px;
+    padding: 5px;
+    font-style: italic;
+}
+.top_button {
+    background: #7b5244;
+    bottom: 20px;
+    cursor: pointer;
+    height: 45px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 45px;
+    z-index: 99;
+    border-radius: 50%;
+    display: none;
+}
+.top_button i {
+    color: white;
+    font-size: 15px;
+    line-height: 45px;
+}
+.top_button:hover {
+    background: #272120;
+}
+/* end footer */

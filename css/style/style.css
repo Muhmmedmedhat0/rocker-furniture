@@ -1,0 +1,19 @@
+/* Global main Rules & Utilities */
+@import '../Utilities/mainRules.css';
+/* Components – specific UI components*/
+/*header section*/
+@import '../components/header/header.css';
+/*slider section*/
+@import '../components/slider/slider.css';
+/*category section*/
+@import '../components/category/category.css';
+/* discount section */
+@import '../components/discount/discount.css';
+/* products section */
+@import '../components/products/products.css';
+/* footer section */
+@import '../components/footer/footer.css';
+/* contact us page */
+@import '../components/contact/contact.css';
+/* about us page */
+@import '../components/about-us/about-us.css';

@@ -1,0 +1,60 @@
+/* start main rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+:root {
+    --mainColor: #7b5244;
+    --subColor: #333333;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* End main rules */
+/* start section header */
+.section__header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section-padding {
+    padding: 40px 0;
+}
+.section__header--title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section__header--line {
+    display: block;
+    width: 80px;
+    margin: auto;
+    background-color: var(--mainColor);
+    height: 2px;
+    transition: width 0.5s;
+}
+.section__header:hover .section__header--line {
+    width: 120px;
+}
+/* end section header */

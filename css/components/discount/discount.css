@@ -1,0 +1,161 @@
+/* start discount section */
+.discount__items {
+    margin: 30px 0;
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+}
+
+.discount__disc {
+    flex: 2;
+    padding: 20px;
+    background-color: #f1ebeb;
+    position: relative;
+
+}
+
+.discount__disc .top {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    color: var(--mainColor);
+
+}
+
+.discount__disc .top+p {
+    color: var(--mainColor);
+    line-height: 1.5;
+
+}
+
+.discount__disc .top .icon {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    color: var(--mainColor);
+}
+
+.discount__item {
+    flex: 1;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+}
+
+.discount__item--info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.discount__item--info h3 {
+    color: var(--mainColor);
+}
+
+.discount__item--info h2 {
+    color: var(--subColor);
+}
+
+.discount__item:nth-child(2),
+.discount__item:nth-child(3) {
+    background-image: url(../../../images/cms-banner-1.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-left: 15px;
+    transition: transform 0.2s;
+}
+
+.discount__item:nth-child(3) {
+    background-image: url(../../../images/cms-banner-2.jpg);
+}
+
+.discount__item:nth-child(2):hover,
+.discount__item:nth-child(3):hover {
+    transform: scale(1.1);
+}
+
+.discount__disc--bullets {
+    text-align: right;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.discount__disc--bullets span {
+    display: inline-block;
+    height: 2px;
+    width: 30px;
+    margin-left: 3px;
+    background-color: var(--mainColor);
+}
+/* start sprites effect */
+.sprites {
+    margin: 50px 0;
+    display: flex;
+}
+.sprites__item{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid var(--mainColor);
+}
+.sprites__item:last-child{
+    border: 0;
+}
+.sprites__icon{
+    height: 50px;
+    background-image: url(../../../images/service-icon.png);
+    background-repeat: no-repeat;
+        transition: 0.5s;
+
+}
+
+.sprites__icon--1 {
+    background-position: center 0px;
+}
+.sprites__item:hover .sprites__icon--1{
+    background-position: center -90px;
+
+}
+.sprites__icon--2 {
+    background-position: center -185px;
+}
+
+.sprites__item:hover .sprites__icon--2 {
+    background-position: center -275px;
+
+}
+.sprites__icon--3 {
+    background-position: center -555px;
+}
+
+.sprites__item:hover .sprites__icon--3 {
+    background-position: center -645px;
+
+}
+.sprites__icon--4 {
+    background-position: center -370px;
+}
+.sprites__item:hover .sprites__icon--4 {
+    background-position: center -460px;
+
+}
+.sprites__icon--5 {
+    background-position: center -735px;
+}
+.sprites__item:hover .sprites__icon--5 {
+    background-position: center -825px;
+
+}
+.sprites__item h4 {
+    color: var(--subColor);
+}
+
+.sprites__item span {
+    color: var(--mainColor);
+}
+
+/* end sprites effect */
+.discount hr{
+    color: var(--mainColor);
+}
+/* end discount section */
